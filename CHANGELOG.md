@@ -4,6 +4,13 @@
 
 [1]: https://www.npmjs.com/package/@google-cloud/bigquery?activeTab=versions
 
+## [5.11.0](https://github.com/googleapis/nodejs-bigquery/compare/v5.10.0...v5.11.0) (2022-01-26)
+
+
+### Features
+
+* add table.createInsertStream for native streaming inserts ([#997](https://github.com/googleapis/nodejs-bigquery/issues/997)) ([0ffe544](https://github.com/googleapis/nodejs-bigquery/commit/0ffe544d8961f294e520519a077b59838135699f))
+
 ## [5.10.0](https://www.github.com/googleapis/nodejs-bigquery/compare/v5.9.3...v5.10.0) (2022-01-10)
 
 
