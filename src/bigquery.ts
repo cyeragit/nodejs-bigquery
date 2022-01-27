@@ -21,6 +21,7 @@ import {
   GoogleAuthOptions,
   util,
 } from '@google-cloud/common';
+import { GoogleAuth } from 'google-auth-library';
 import {paginator, ResourceStream} from '@google-cloud/paginator';
 import {promisifyAll} from '@google-cloud/promisify';
 import arrify = require('arrify');
@@ -201,6 +202,8 @@ export interface BigQueryOptions extends GoogleAuthOptions {
    * Defaults to `bigquery.googleapis.com`.
    */
   apiEndpoint?: string;
+
+  authClient?: GoogleAuth;
 }
 
 export interface IntegerTypeCastOptions {
