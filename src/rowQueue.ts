@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-import * as common from '@google-cloud/common';
-import * as extend from 'extend';
-import * as uuid from 'uuid';
+import common from '@google-cloud/common';
+import extend from 'extend';
+import uuid from 'uuid';
 import {RequestCallback, Table, InsertStreamOptions} from '.';
 import {GoogleErrorBody} from '@google-cloud/common/build/src/util';
 import bigquery from './types';

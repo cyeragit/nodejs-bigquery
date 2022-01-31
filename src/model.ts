@@ -17,7 +17,7 @@
 import {ServiceObject, util} from '@google-cloud/common';
 import {promisifyAll} from '@google-cloud/promisify';
 import arrify = require('arrify');
-import * as extend from 'extend';
+import extend from 'extend';
 import {
   BigQuery,
   Job,

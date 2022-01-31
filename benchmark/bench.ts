@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as fs from 'fs';
+import fs from 'fs';
 import {BigQuery} from '../src';
 
 if (process.argv.length < 3) {

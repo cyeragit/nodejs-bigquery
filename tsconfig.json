@@ -1,13 +1,11 @@
 {
-  "extends": "./node_modules/gts/tsconfig-google.json",
+  "extends": "../../default.tsconfig.json",
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "build"
   },
   "include": [
     "src/*.ts",
-    "test/*.ts",
-    "system-test/*.ts",
     "benchmark/*.ts"
   ]
 }

@@ -27,13 +27,13 @@ import {paginator, ResourceStream} from '@google-cloud/paginator';
 import {promisifyAll} from '@google-cloud/promisify';
 import arrify = require('arrify');
 import Big from 'big.js';
-import * as extend from 'extend';
+import extend from 'extend';
 import pEvent from 'p-event';
-import * as fs from 'fs';
-import * as is from 'is';
-import * as path from 'path';
-import * as streamEvents from 'stream-events';
-import * as uuid from 'uuid';
+import fs from 'fs';
+import is from 'is';
+import path from 'path';
+import streamEvents from 'stream-events';
+import uuid from 'uuid';
 import {
   BigQuery,
   Job,

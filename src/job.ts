@@ -26,7 +26,7 @@ import {
 } from '@google-cloud/common';
 import {paginator, ResourceStream} from '@google-cloud/paginator';
 import {promisifyAll} from '@google-cloud/promisify';
-import * as extend from 'extend';
+import extend from 'extend';
 
 import {
   BigQuery,
